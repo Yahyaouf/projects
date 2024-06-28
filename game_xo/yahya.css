@@ -1,0 +1,88 @@
+body {
+    background-color: orange;
+    height: 100vh;
+    width: 100vh;
+}
+.mygame{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+}
+
+.case {
+    height: 160px;
+    width: 95%;
+    background-color: black;
+    cursor: pointer;
+    text-align: center;
+    border-radius:50px;
+
+}
+h1{
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 0,
+        "SHLN" 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.local {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 140px;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 0,
+        "SHLN" 0;
+}
+
+.game {
+    height:500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.players {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: "Honk", system-ui;
+    font-size: xx-large;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "MORF",
+        "SHLN";
+    font-style: italic;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.case:hover {
+    background-color: #222;
+}
