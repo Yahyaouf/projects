@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+body{
+    margin:0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: tomato;
+    width:100vw;
+}
+nav{
+    display: flex;
+    justify-content:center;
+    justify-content:space-around;
+    width: 100vw;
+    align-items: center;
+}
+.op{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+
+}
+h1{
+    width:300px;
+    color: white;
+    margin-left:20px;
+}
+.all{
+    display:flex;
+    justify-content: space-between;
+}
+.calculate{
+    background-color: rgb(236, 224, 224);
+    width:80%;
+    height:350px;
+    margin:10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    justify-content: space-around;
+    font-size:100px;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.num1{
+    color:green;
+}
+.num2{
+    color: orange;
+}
+.operation{
+    color: blueviolet;
+}
+.result{
+    color: cornflowerblue;
+}
+.equal{
+    color: brown;
+}
+.solution{
+    width:20%;
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+p{
+font-size:80px;
+display: flex;
+justify-content: center;
+align-items:center ;
+color:green;
+position: relative;
+left:20px;
+}
+.sol1,.sol2,.sol3{
+    width:100%;
+    height:33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:70px;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    border-radius: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+.sol1{
+    background-color:green;
+}
+.sol1:hover{
+    background-color:rgb(236, 224, 224);
+    color:green;
+}
+.sol2{
+    background-color: aquamarine;
+}
+.sol2:hover{
+    background-color:rgb(236, 224, 224);
+    color:aquamarine;
+}
+.sol3:hover{
+    background-color:rgb(236, 224, 224);
+    color:blueviolet;
+}
+.sol3{
+    background-color: blueviolet;
+}
