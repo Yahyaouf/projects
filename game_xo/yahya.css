@@ -2,13 +2,19 @@ body {
     background-color: orange;
     height: 100vh;
     width: 100vh;
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    overflow:hidden;
 }
 .mygame{
     display: flex;
     justify-content:center ;
     align-items: center;
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
+    position:relative;
+    bottom:50px;
 }
 
 .case {
@@ -67,7 +73,7 @@ h1{
 
 .players {
     display: flex;
-    width: 100%;
+    width: 100vw;
     justify-content: center;
     justify-content: space-evenly;
     font-family: "Honk", system-ui;
